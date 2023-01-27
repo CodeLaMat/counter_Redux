@@ -1,0 +1,40 @@
+main {
+  height: 90vh;
+  background-color: #91a6d1;
+  margin: 0 auto;
+  padding: 100px;
+  color: white;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  width: 220px;
+  background-color: rgb(128, 139, 140);
+  border-radius: 50%;
+  margin: auto;
+}
+
+.counterNum {
+  font-size: 10vh;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  background-color: rgb(99, 135, 187);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
